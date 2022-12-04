@@ -1,3 +1,30 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+theme = "lynx"
+title = "Brody Mileham"
+languageCode = "en-au"
+baseUrl = "https://brodymileham.github.io"
+googleAnalytics = ""
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  image = "profile.jpeg"
+  headline = "Developer | Learner"
+  links = [
+    { link = { href = "https://github.com/brodymileham/brodymileham/blob/main/README.md", text = "View the readme", icon = "github" } },
+    { github = "https://github.com/brodymileham" },
+    { portfolio = { href = "https://brodymileham.com", text = "Portfolio" }},
+    { linkedin = "https://www.linkedin.com/in/brody-mileham-6b7b3b154/" },
+    { codepen = "https://codepen.io/im4evabr0ke"},
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  keywords = "brodymileham,brody,mileham,developer,webdeveloper,softwaredeveloper"
+  robots = "index,follow"
