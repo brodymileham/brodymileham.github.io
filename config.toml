@@ -9,7 +9,7 @@ disableKinds = ["taxonomy", "term"]
 
 [author]
   image = "profile.jpeg"
-  headline = "Developer | Learner"
+  headline = "Hello I'm Brody! I'm a developer and constant learner always looking to improve my skills! I love to spend my time solving complex problems and doing so drinking lots of coffee!"
   links = [
     { link = { href = "https://github.com/brodymileham/brodymileham/blob/main/README.md", text = "View the readme", icon = "github" } },
     { github = "https://github.com/brodymileham" },
